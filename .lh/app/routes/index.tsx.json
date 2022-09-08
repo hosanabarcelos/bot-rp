@@ -1,0 +1,810 @@
+{
+    "sourceFile": "app/routes/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 198,
+            "patches": [
+                {
+                    "date": 1662605327652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662605336411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n       h=\"100%\"\r\n-      bg='#540157'\r\n+      bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662605344924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='gray.700'\r\n+        bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='whiteAlpha.900'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662605361787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n-        color='whiteAlpha.900'\r\n+        color='#FFF'\r\n         shadow=\"base\">\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662605413269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n \r\n-          <Button w=\"full\" type=\"submit\">\r\n+          <Button bg='#540157' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n       </Box>\r\n"
+                },
+                {
+                    "date": 1662605432323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n \r\n-          <Button bg='#540157' w=\"full\" type=\"submit\">\r\n+          <Button bg='#3283C8' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n       </Box>\r\n"
+                },
+                {
+                    "date": 1662605450641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='#540157'\r\n+        bg='#3283C8'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662605463454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n \r\n-          <Button bg='#3283C8' w=\"full\" type=\"submit\">\r\n+          <Button bg='#540157' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n       </Box>\r\n"
+                },
+                {
+                    "date": 1662605489442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n \r\n-          <Button bg='#540157' w=\"full\" type=\"submit\">\r\n+          <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n       </Box>\r\n"
+                },
+                {
+                    "date": 1662605498487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='#3283C8'\r\n+        bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662605549343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n+        <h2>Bem vindo a família Bahamas!</h2>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662605565242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,16 +20,16 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        <h2>Bem vindo a família Bahamas!</h2>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n+            <h2>Bem vindo a família Bahamas!</h2>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605589699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <h2>Bem vindo a família Bahamas!</h2>\r\n+            <h2>Informe os dados abaixo para faze parte da família.</h2>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605605828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <h2>Informe os dados abaixo para faze parte da família.</h2>\r\n+            <h2>Informe os dados abaixo para fazer parte da mwlhor família da cidade.</h2>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605649725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <h2>Informe os dados abaixo para fazer parte da mwlhor família da cidade.</h2>\r\n+            <Flex align=\"center\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605668167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex align=\"center\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n+            <Flex align=\"center\" w=\"50%\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605687306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex align=\"center\" w=\"50%\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n+            <Flex align=\"center\" w=\"90%\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605702982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex align=\"center\" w=\"90%\">Informe os dados abaixo para fazer parte da melhor família da cidade.</Flex>\r\n+            <Flex align=\"center\" w=\"90%\">Faça parte da melhor família da cidade.</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605721468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex align=\"center\" w=\"90%\">Faça parte da melhor família da cidade.</Flex>\r\n+            <Flex p={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605728061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex p={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex p={10} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605749132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex p={10} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex m-r={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605754922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex m-r={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex r={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605775987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex r={8} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex  justify=\"center\" align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605792290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  justify=\"center\" align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex  justify=\"center\" m={3} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605804669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  justify=\"center\" m={3} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex  m={3} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605812060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  m={3} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605821179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade!</Flex>\r\n+            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605840969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\">Faça parte da melhor família da cidade! :)</Flex>\r\n+            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605855068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex  justify=\"center\" m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+            <Flex m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605861457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605873990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex spacing={5} m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605882531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex spacing={5} m={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605894113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex spacing={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605904021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex spacing={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5}>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662605963259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n-        <VStack spacing={5}>\r\n+        <Flex my={3} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n             <InputGroup>\r\n"
+                },
+                {
+                    "date": 1662605982298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex my={3} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex mb={3} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606045848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,16 +20,17 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n+        <img />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={3} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606239945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,16 +21,17 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n         <img />\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        \r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606245810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,17 +21,16 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n         <img />\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        \r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606301752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        <img />\r\n+        <img src=\"../../public/logo.png\"/>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662606315039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,17 +20,16 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        <img src=\"../../public/logo.png\"/>\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)</Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)  <img src=\"../../public/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606328127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! :)  <img src=\"../../public/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"../../public/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606335984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"../../public/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/public/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606355771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/public/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"@public/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606371481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"@public/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/public/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606408865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/public/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/assets/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606427906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/assets/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/app/assets/logo.png\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606473547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n   VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n+import logoImage from '../assets/logo.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n@@ -27,9 +28,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src=\"/app/assets/logo.png\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606503055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} style=\"width: 100px;\"/></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606522294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} style=\"width: 100px;\"/></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606646623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,14 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!   <Image\r\n+    boxSize='100px'\r\n+    objectFit='cover'\r\n+    src='https://bit.ly/dan-abramov'\r\n+    alt='Dan Abramov'\r\n+  /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606679296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   Input,\r\n   InputGroup,\r\n   InputLeftElement,\r\n   Textarea,\r\n+  Image\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n@@ -28,14 +29,10 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!   <Image\r\n-    boxSize='100px'\r\n-    objectFit='cover'\r\n-    src='https://bit.ly/dan-abramov'\r\n-    alt='Dan Abramov'\r\n-  /></Flex>\r\n+            <Image boxSize='200px' src='https://bit.ly/dan-abramov' alt='Dan Abramov' />\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606697341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Image boxSize='200px' src='https://bit.ly/dan-abramov' alt='Dan Abramov' />\r\n+            <Image boxSize='200px' src='../assets/logo.png' alt='Dan Abramov' />\r\n         <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662606729161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n   VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n-import logoImage from '../assets/logo.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n@@ -29,9 +28,14 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Image boxSize='200px' src='../assets/logo.png' alt='Dan Abramov' />\r\n+             <Image\r\n+    boxSize='100px'\r\n+    objectFit='cover'\r\n+    src='https://bit.ly/dan-abramov'\r\n+    alt='Dan Abramov'\r\n+  />\r\n         <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662606789076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     objectFit='cover'\r\n     src='https://bit.ly/dan-abramov'\r\n     alt='Dan Abramov'\r\n   />\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606812142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   InputGroup,\r\n   InputLeftElement,\r\n   Textarea,\r\n   Image\r\n-  VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n \r\n"
+                },
+                {
+                    "date": 1662606827630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   InputGroup,\r\n   InputLeftElement,\r\n   Textarea,\r\n   Image\r\n+  { VStack },\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n \r\n"
+                },
+                {
+                    "date": 1662606840946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n   Input,\r\n   InputGroup,\r\n   InputLeftElement,\r\n   Textarea,\r\n-  Image\r\n-  { VStack },\r\n+  VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n+import logoImage from '../assets/logo.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n@@ -28,15 +28,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-             <Image\r\n-    boxSize='100px'\r\n-    objectFit='cover'\r\n-    src='https://bit.ly/dan-abramov'\r\n-    alt='Dan Abramov'\r\n-  />\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606918725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   Input,\r\n   InputGroup,\r\n   InputLeftElement,\r\n   Textarea,\r\n+  Image,\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n@@ -28,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <img src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <Image src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606936011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <Image src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <Image boxSize='100px' src={logoImage} /></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606958013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade! <Image boxSize='100px' src={logoImage} /></Flex>\r\n+        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662606963860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n+        <Image boxSize='100px' src={logoImage} />\r\n         <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662607003300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n         <Image boxSize='100px' src={logoImage} />\r\n-        <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607018098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image boxSize='100px' src={logoImage} />\r\n+        <Image boxSize='100px' src={logoImage} /> <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607029474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image boxSize='100px' src={logoImage} /> <Flex mb={5} align=\"center\" w=\"90%\" color=\"#000000\">Faça parte da melhor família da cidade!</Flex>\r\n+        <Image boxSize='100px' src={logoImage} >BAHAMAS</Image>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607035981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image boxSize='100px' src={logoImage} >BAHAMAS</Image>\r\n+        <Image boxSize='100px' src={logoImage} />\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607061587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image boxSize='100px' src={logoImage} />\r\n+        <Image mb={5} boxSize='100px' src={logoImage} />\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607070840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image mb={5} boxSize='100px' src={logoImage} />\r\n+        <Image mb={8} boxSize='80px' src={logoImage} />\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607091490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-        <Image mb={8} boxSize='80px' src={logoImage} />\r\n+            <Box><Image mb={8} boxSize='80px' src={logoImage} /></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607111078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import {\r\n   Box,\r\n   Button,\r\n   Flex,\r\n+  Text,\r\n   FormControl,\r\n   FormLabel,\r\n   Input,\r\n   InputGroup,\r\n"
+                },
+                {
+                    "date": 1662607131762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={8} boxSize='80px' src={logoImage} /></Box>\r\n+            <Box><Image mb={8} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>(3xl) In love with React & Next</Text></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607141231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={8} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>(3xl) In love with React & Next</Text></Box>\r\n+            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>(3xl) In love with React & Next</Text></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607154481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>(3xl) In love with React & Next</Text></Box>\r\n+            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>BAHAMAS</Text></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607193987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>BAHAMAS</Text></Box>\r\n+            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607208633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Box>\r\n+            <Box><Image mb={5} boxSize='80px' src={logoImage} /></Box>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607275738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Box><Image mb={5} boxSize='80px' src={logoImage} /></Box>\r\n+            <Flex><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607306088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex align=\"center\"><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607321105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex align=\"center\"><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex justify=\"center\" align=\"center\"><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607341602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex justify=\"center\" align=\"center\"><Image mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607356470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607387732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, green.200, pink.500)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607436170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, green.200, pink.500)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #540157, #3283C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607472403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #540157, #3283C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #540157, #3282C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607480934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #540157, #3282C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #540157, #3274C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607501582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #540157, #3274C8)\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #3295C8, #540157 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607520767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #3295C8, #540157 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #3295C8, #540657 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607538112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #3295C8, #540657 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607602133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex borderRadius=\"lg\" bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607630877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='#540157'\r\n+        bg='#54dd'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662607636337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='#54dd'\r\n+        bg='#000'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662607647714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n         w=\"500px\"\r\n-        bg='#000'\r\n+        bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n"
+                },
+                {
+                    "date": 1662607661090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex borderRadius=\"lg\" bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607731769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n+        border='1px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662607738435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='1px' borderColor='#000000'\r\n+        border='8px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662607776123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='8px' borderColor='#000000'\r\n+        border='6px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662607781652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='6px' borderColor='#000000'\r\n+        border='7px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662607806329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='7px' borderColor='#000000'\r\n+        border='8px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662607931834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" bgGradient=\"linear(to-t, #3295C8, #540258 )\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607959478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='70px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607970230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='80px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662607979757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" align=\"center\"><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662608001647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662608046935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662608081355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662608095285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662616233288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,12 @@\n         borderRadius=\"lg\"\r\n         p={8}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n-            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" ><Image mr={3} mb={5} boxSize='60px' src={logoImage} /><Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text></Flex>\r\n+            <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n+                <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n+                <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n+            </Flex>\r\n         <VStack spacing={5} >\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n"
+                },
+                {
+                    "date": 1662616245719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='8px' borderColor='#000000'\r\n+        border='6px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n"
+                },
+                {
+                    "date": 1662616862584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n       <Box\r\n-        border='6px' borderColor='#000000'\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n         p={8}\r\n@@ -35,9 +34,17 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n-        <VStack spacing={5} >\r\n+        <VStack spacing={5}>\r\n+        <FormControl isRequired>\r\n+            <FormLabel>Organização</FormLabel>\r\n+\r\n+            <InputGroup>\r\n+              <InputLeftElement />\r\n+              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n+            </InputGroup>\r\n+          </FormControl>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n \r\n             <InputGroup>\r\n"
+                },
+                {
+                    "date": 1662616938636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,14 +67,16 @@\n           </FormControl>\r\n \r\n           <FormControl isRequired>\r\n             <FormLabel>Celular</FormLabel>\r\n-\r\n+            <InputGroup>\r\n+            <InputLeftElement />\r\n             <Input\r\n               name=\"message\"\r\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n+            </InputGroup>\r\n           </FormControl>\r\n \r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n"
+                },
+                {
+                    "date": 1662616987015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,46 +37,32 @@\n             </Flex>\r\n         <VStack spacing={5}>\r\n         <FormControl isRequired>\r\n             <FormLabel>Organização</FormLabel>\r\n+              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n+        </FormControl>\r\n \r\n-            <InputGroup>\r\n-              <InputLeftElement />\r\n-              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n-            </InputGroup>\r\n-          </FormControl>\r\n           <FormControl isRequired>\r\n             <FormLabel>Seu nome</FormLabel>\r\n-\r\n-            <InputGroup>\r\n-              <InputLeftElement />\r\n               <Input type=\"text\" name=\"name\" placeholder=\"Digite o nome do seu personagem\" />\r\n-            </InputGroup>\r\n           </FormControl>\r\n \r\n           <FormControl isRequired>\r\n             <FormLabel>Seu ID</FormLabel>\r\n-\r\n-            <InputGroup>\r\n-              <InputLeftElement />\r\n               <Input\r\n                 type=\"number\"\r\n                 name=\"email\"\r\n                 placeholder=\"Digite seu ID do jogo\"\r\n               />\r\n-            </InputGroup>\r\n           </FormControl>\r\n \r\n           <FormControl isRequired>\r\n             <FormLabel>Celular</FormLabel>\r\n-            <InputGroup>\r\n-            <InputLeftElement />\r\n             <Input\r\n               name=\"message\"\r\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n-            </InputGroup>\r\n           </FormControl>\r\n \r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n"
+                },
+                {
+                    "date": 1662617321803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n import logoImage from '../assets/logo.png';\r\n+import felinaImage from '../assets/felina.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n@@ -67,8 +68,9 @@\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n+        <Image mr={3} mb={5} boxSize='60px' src={felinaImage} />\r\n       </Box>\r\n     </Flex>\r\n   );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662617333093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n-        <Image mr={3} mb={5} boxSize='60px' src={felinaImage} />\r\n+        <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       </Box>\r\n     </Flex>\r\n   );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662617341276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,8 @@\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n-        <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       </Box>\r\n     </Flex>\r\n   );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662617349655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n+            <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n         <VStack spacing={5}>\r\n         <FormControl isRequired>\r\n             <FormLabel>Organização</FormLabel>\r\n               <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n"
+                },
+                {
+                    "date": 1662617363954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n+        <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n@@ -35,9 +36,8 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n-            <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n         <VStack spacing={5}>\r\n         <FormControl isRequired>\r\n             <FormLabel>Organização</FormLabel>\r\n               <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n"
+                },
+                {
+                    "date": 1662617410209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n+      direction=\"column\"\r\n       justify=\"center\">\r\n         <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662617433993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n-      direction=\"column\"\r\n+      direction=\"row-reverse\"\r\n       justify=\"center\">\r\n         <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662617456371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,8 @@\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n-      direction=\"row-reverse\"\r\n       justify=\"center\">\r\n         <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662617466824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        <Image mr={3} mb={5} boxSize='100px' src={felinaImage} />\r\n+        <Image mr={3} mb={5} boxSize='300px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617556010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n+      direction=\"column\"\r\n       justify=\"center\">\r\n         <Image mr={3} mb={5} boxSize='300px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662617565048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image mr={3} mb={5} boxSize='300px' src={felinaImage} />\r\n+        <Image mr={3} mb={5} boxSize='80px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617584350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image mr={3} mb={5} boxSize='80px' src={felinaImage} />\r\n+        <Image mr={3} mb={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617606007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image mr={3} mb={5} boxSize='70px' src={felinaImage} />\r\n+        <Image mr={3} pt={20} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617633957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image mr={3} pt={20} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={10} pt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617643158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={10} pt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={100} pt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617652197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={100} pt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={500} pt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617661619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={500} pt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={420} pt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617668250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={420} pt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={350} pt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617678529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={350} pt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={300} pt={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617688159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={300} pt={5} boxSize='100px' src={felinaImage} />\r\n+        <Image ml={300} pt={10} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617704151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={300} pt={10} boxSize='100px' src={felinaImage} />\r\n+        <Image ml={300} mt={5} boxSize='100px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617715080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={300} mt={5} boxSize='100px' src={felinaImage} />\r\n+        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617746542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,8 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n-        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662617758333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-\r\n+          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n"
+                },
+                {
+                    "date": 1662617775881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n+          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n         </VStack>\r\n"
+                },
+                {
+                    "date": 1662617798247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,12 +64,14 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n+          <Flex>\r\n           <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n+          </Flex>\r\n         </VStack>\r\n       </Box>\r\n     </Flex>\r\n   );\r\n"
+                },
+                {
+                    "date": 1662617814215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-          <Flex>\r\n+          <Flex direction=\"column\">\r\n           <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1662617832601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-          <Flex direction=\"column\">\r\n+          <Flex direction=\"column\" w=\"80%\">\r\n           <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1662617847943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-          <Flex direction=\"column\" w=\"80%\">\r\n+          <Flex direction=\"column\" w=\"90%\">\r\n           <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1662617883754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,12 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n           <Flex direction=\"column\" w=\"90%\">\r\n-          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n+          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           </Flex>\r\n         </VStack>\r\n       </Box>\r\n     </Flex>\r\n"
+                },
+                {
+                    "date": 1662617892365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n           <Flex direction=\"column\" w=\"90%\">\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n-          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n+          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n           </Flex>\r\n         </VStack>\r\n       </Box>\r\n     </Flex>\r\n"
+                },
+                {
+                    "date": 1662617948753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,12 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n           <Flex direction=\"column\" w=\"90%\">\r\n+          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n-          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n           </Flex>\r\n         </VStack>\r\n       </Box>\r\n     </Flex>\r\n"
+                },
+                {
+                    "date": 1662618084453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n-      h=\"100%\"\r\n+      h=\"90%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n@@ -65,9 +65,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n           <Flex direction=\"column\" w=\"90%\">\r\n-          <Image ml={500} mt={5} boxSize='70px' src={felinaImage} />\r\n+          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n           </Flex>\r\n"
+                },
+                {
+                    "date": 1662618090149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n-      h=\"90%\"\r\n+      h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n"
+                },
+                {
+                    "date": 1662618138499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n-        p={8}\r\n+        p={6}\r\n         color='#FFF'\r\n         shadow=\"base\">\r\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n"
+                },
+                {
+                    "date": 1662618273399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,14 +43,14 @@\n               <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n         </FormControl>\r\n \r\n           <FormControl isRequired>\r\n-            <FormLabel>Seu nome</FormLabel>\r\n+            <FormLabel>Nome</FormLabel>\r\n               <Input type=\"text\" name=\"name\" placeholder=\"Digite o nome do seu personagem\" />\r\n           </FormControl>\r\n \r\n           <FormControl isRequired>\r\n-            <FormLabel>Seu ID</FormLabel>\r\n+            <FormLabel>ID</FormLabel>\r\n               <Input\r\n                 type=\"number\"\r\n                 name=\"email\"\r\n                 placeholder=\"Digite seu ID do jogo\"\r\n"
+                },
+                {
+                    "date": 1662618301401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n           <Flex direction=\"column\" w=\"90%\">\r\n-          <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n+          \r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n           </Flex>\r\n"
+                },
+                {
+                    "date": 1662618335137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,14 +64,11 @@\n               type=\"number\"\r\n               placeholder=\"Digite o número de celular do seu personagem\"\r\n             />\r\n           </FormControl>\r\n-          <Flex direction=\"column\" w=\"90%\">\r\n-          \r\n           <Button bg='#000000' w=\"full\" type=\"submit\">\r\n             Entrar no Bahamas\r\n           </Button>\r\n-          </Flex>\r\n         </VStack>\r\n       </Box>\r\n     </Flex>\r\n   );\r\n"
+                },
+                {
+                    "date": 1662618368791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       direction=\"column\"\r\n       justify=\"center\">\r\n+        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662618386389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,8 @@\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n-      direction=\"column\"\r\n       justify=\"center\">\r\n         <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n"
+                },
+                {
+                    "date": 1662618424794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662618432559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n import felinaImage from '../assets/felina.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n+    \r\n     <Flex\r\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n"
+                },
+                {
+                    "date": 1662618509608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n import felinaImage from '../assets/felina.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n-    \r\n     <Flex\r\n       w=\"100%\"\r\n       h=\"100%\"\r\n       bg='#171717'\r\n"
+                },
+                {
+                    "date": 1662618517919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,10 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n+        \r\n+        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662618525400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n         \r\n-        <Image ml={300} mt={5} boxSize='70px' src={felinaImage} />\r\n+        <Image ml={300} mt={5} boxSize='150px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662620994847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,8 @@\n       h=\"100%\"\r\n       bg='#171717'\r\n       align=\"center\"\r\n       justify=\"center\">\r\n-        \r\n-        <Image ml={300} mt={5} boxSize='150px' src={felinaImage} />\r\n       <Box\r\n         w=\"500px\"\r\n         bg='#540157'\r\n         borderRadius=\"lg\"\r\n"
+                },
+                {
+                    "date": 1662621000586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n } from '@chakra-ui/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n import logoImage from '../assets/logo.png';\r\n-import felinaImage from '../assets/felina.png';\r\n \r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1662621031473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             </Flex>\r\n         <VStack spacing={5}>\r\n         <FormControl isRequired>\r\n             <FormLabel>Organização</FormLabel>\r\n-              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n+              <Input type=\"text\" name=\"name\" placeholder=\"Digite a palavra Bahamas\" />\r\n         </FormControl>\r\n \r\n           <FormControl isRequired>\r\n             <FormLabel>Nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662621041372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             </Flex>\r\n         <VStack spacing={5}>\r\n         <FormControl isRequired>\r\n             <FormLabel>Organização</FormLabel>\r\n-              <Input type=\"text\" name=\"name\" placeholder=\"Digite a palavra Bahamas\" />\r\n+              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n         </FormControl>\r\n \r\n           <FormControl isRequired>\r\n             <FormLabel>Nome</FormLabel>\r\n"
+                },
+                {
+                    "date": 1662647897223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n   Textarea,\r\n   Image,\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n+import { Form } from '@remix-run/react';\r\n import { BsPerson } from 'react-icons/bs';\r\n import { MdOutlineEmail } from 'react-icons/md';\r\n import logoImage from '../assets/logo.png';\r\n \r\n@@ -34,40 +35,42 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n-        <VStack spacing={5}>\r\n-        <FormControl isRequired>\r\n-            <FormLabel>Organização</FormLabel>\r\n-              <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n-        </FormControl>\r\n+        <Form>\r\n+            <VStack spacing={5}>\r\n+            <FormControl isRequired>\r\n+                <FormLabel>Organização</FormLabel>\r\n+                <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n+            </FormControl>\r\n \r\n-          <FormControl isRequired>\r\n-            <FormLabel>Nome</FormLabel>\r\n-              <Input type=\"text\" name=\"name\" placeholder=\"Digite o nome do seu personagem\" />\r\n-          </FormControl>\r\n+            <FormControl isRequired>\r\n+                <FormLabel>Nome</FormLabel>\r\n+                <Input type=\"text\" name=\"name\" placeholder=\"Digite o nome do seu personagem\" />\r\n+            </FormControl>\r\n \r\n-          <FormControl isRequired>\r\n-            <FormLabel>ID</FormLabel>\r\n-              <Input\r\n+            <FormControl isRequired>\r\n+                <FormLabel>ID</FormLabel>\r\n+                <Input\r\n+                    type=\"number\"\r\n+                    name=\"email\"\r\n+                    placeholder=\"Digite seu ID do jogo\"\r\n+                />\r\n+            </FormControl>\r\n+\r\n+            <FormControl isRequired>\r\n+                <FormLabel>Celular</FormLabel>\r\n+                <Input\r\n+                name=\"message\"\r\n                 type=\"number\"\r\n-                name=\"email\"\r\n-                placeholder=\"Digite seu ID do jogo\"\r\n-              />\r\n-          </FormControl>\r\n-\r\n-          <FormControl isRequired>\r\n-            <FormLabel>Celular</FormLabel>\r\n-            <Input\r\n-              name=\"message\"\r\n-              type=\"number\"\r\n-              placeholder=\"Digite o número de celular do seu personagem\"\r\n-            />\r\n-          </FormControl>\r\n-          <Button bg='#000000' w=\"full\" type=\"submit\">\r\n-            Entrar no Bahamas\r\n-          </Button>\r\n-        </VStack>\r\n+                placeholder=\"Digite o número de celular do seu personagem\"\r\n+                />\r\n+            </FormControl>\r\n+            <Button bg='#000000' w=\"full\" type=\"submit\">\r\n+                Entrar no Bahamas\r\n+            </Button>\r\n+            </VStack>\r\n+        </Form>\r\n       </Box>\r\n     </Flex>\r\n   );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662647977821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n-        <Form>\r\n+        <Form method=\"post\">\r\n             <VStack spacing={5}>\r\n             <FormControl isRequired>\r\n                 <FormLabel>Organização</FormLabel>\r\n                 <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n"
+                },
+                {
+                    "date": 1662648164079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,16 @@\n   Textarea,\r\n   Image,\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n+import type { ActionFunction } from '@remix-run/node';\r\n import { Form } from '@remix-run/react';\r\n-import { BsPerson } from 'react-icons/bs';\r\n-import { MdOutlineEmail } from 'react-icons/md';\r\n import logoImage from '../assets/logo.png';\r\n \r\n+export const action: ActionFunction = async ({request}) => {\r\n+    console.log(request);\r\n+}\r\n+\r\n export default function Contact() {\r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n"
+                },
+                {
+                    "date": 1662648235817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,13 @@\n import { Form } from '@remix-run/react';\r\n import logoImage from '../assets/logo.png';\r\n \r\n export const action: ActionFunction = async ({request}) => {\r\n-    console.log(request);\r\n+    console.log(request)\r\n+\r\n+    return {\r\n+        ok: true,\r\n+    }\r\n }\r\n \r\n export default function Contact() {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1662648321710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n import { Form } from '@remix-run/react';\r\n import logoImage from '../assets/logo.png';\r\n \r\n export const action: ActionFunction = async ({request}) => {\r\n-    console.log(request)\r\n+    const formData = await request.formData();\r\n \r\n     return {\r\n         ok: true,\r\n     }\r\n"
+                },
+                {
+                    "date": 1662648425256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,12 @@\n \r\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n \r\n+    const sender = {\r\n+        name: formData.get(\"name\"),\r\n+    }\r\n+\r\n     return {\r\n         ok: true,\r\n     }\r\n }\r\n@@ -46,9 +50,9 @@\n         <Form method=\"post\">\r\n             <VStack spacing={5}>\r\n             <FormControl isRequired>\r\n                 <FormLabel>Organização</FormLabel>\r\n-                <Input type=\"text\" name=\"name\" placeholder=\"Digite Bahamas\" />\r\n+                <Input type=\"text\" name=\"org\" placeholder=\"Digite Bahamas\" />\r\n             </FormControl>\r\n \r\n             <FormControl isRequired>\r\n                 <FormLabel>Nome</FormLabel>\r\n@@ -58,17 +62,17 @@\n             <FormControl isRequired>\r\n                 <FormLabel>ID</FormLabel>\r\n                 <Input\r\n                     type=\"number\"\r\n-                    name=\"email\"\r\n+                    name=\"id\"\r\n                     placeholder=\"Digite seu ID do jogo\"\r\n                 />\r\n             </FormControl>\r\n \r\n             <FormControl isRequired>\r\n                 <FormLabel>Celular</FormLabel>\r\n                 <Input\r\n-                name=\"message\"\r\n+                name=\"phone\"\r\n                 type=\"number\"\r\n                 placeholder=\"Digite o número de celular do seu personagem\"\r\n                 />\r\n             </FormControl>\r\n"
+                },
+                {
+                    "date": 1662648499776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,12 @@\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n \r\n     const sender = {\r\n+        org: formData.get(\"org\"),\r\n         name: formData.get(\"name\"),\r\n+        id: formData.get(\"id\"),\r\n+        phone: formData.get(\"phone\"),\r\n     }\r\n \r\n     return {\r\n         ok: true,\r\n"
+                },
+                {
+                    "date": 1662648529228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n         name: formData.get(\"name\"),\r\n         id: formData.get(\"id\"),\r\n         phone: formData.get(\"phone\"),\r\n     }\r\n+    console.log(sender);\r\n \r\n     return {\r\n         ok: true,\r\n     }\r\n"
+                },
+                {
+                    "date": 1662648634754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n             <FormControl isRequired>\r\n                 <FormLabel>Celular</FormLabel>\r\n                 <Input\r\n                 name=\"phone\"\r\n-                type=\"number\"\r\n+                type=\"text\"\r\n                 placeholder=\"Digite o número de celular do seu personagem\"\r\n                 />\r\n             </FormControl>\r\n             <Button bg='#000000' w=\"full\" type=\"submit\">\r\n"
+                },
+                {
+                    "date": 1662649610553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,21 +13,30 @@\n   VStack,\r\n } from '@chakra-ui/react';\r\n import type { ActionFunction } from '@remix-run/node';\r\n import { Form } from '@remix-run/react';\r\n+import axios from 'axios';\r\n import logoImage from '../assets/logo.png';\r\n \r\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n \r\n+    const url = process.env.WEBHOOK_URL;\r\n+\r\n     const sender = {\r\n         org: formData.get(\"org\"),\r\n         name: formData.get(\"name\"),\r\n         id: formData.get(\"id\"),\r\n         phone: formData.get(\"phone\"),\r\n     }\r\n     console.log(sender);\r\n \r\n+    try {\r\n+        await axios.post()\r\n+    } catch (err) {\r\n+\r\n+    }\r\n+\r\n     return {\r\n         ok: true,\r\n     }\r\n }\r\n"
+                },
+                {
+                    "date": 1662649682577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,14 @@\n     const formData = await request.formData();\r\n \r\n     const url = process.env.WEBHOOK_URL;\r\n \r\n+    if (!url) {\r\n+        error: true,\r\n+        code: 'WEBHOOK_URL is missing',\r\n+        message: 'Ocorreu um erro inesperado. Tente novamente.',\r\n+    }\r\n+\r\n     const sender = {\r\n         org: formData.get(\"org\"),\r\n         name: formData.get(\"name\"),\r\n         id: formData.get(\"id\"),\r\n@@ -30,9 +36,9 @@\n     }\r\n     console.log(sender);\r\n \r\n     try {\r\n-        await axios.post()\r\n+        await axios.post(url)\r\n     } catch (err) {\r\n \r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662649701146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,13 @@\n \r\n     const url = process.env.WEBHOOK_URL;\r\n \r\n     if (!url) {\r\n-        error: true,\r\n-        code: 'WEBHOOK_URL is missing',\r\n-        message: 'Ocorreu um erro inesperado. Tente novamente.',\r\n+        return {\r\n+            error: true,\r\n+            code: 'WEBHOOK_URL is missing',\r\n+            message: 'Ocorreu um erro inesperado. Tente novamente.',\r\n+        }\r\n     }\r\n \r\n     const sender = {\r\n         org: formData.get(\"org\"),\r\n"
+                },
+                {
+                    "date": 1662649737594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,10 +37,14 @@\n         phone: formData.get(\"phone\"),\r\n     }\r\n     console.log(sender);\r\n \r\n+    const messageData = {\r\n+        \r\n+    }\r\n+\r\n     try {\r\n-        await axios.post(url)\r\n+        await axios.post(url, messageData)\r\n     } catch (err) {\r\n \r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662649882663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,13 @@\n     }\r\n     console.log(sender);\r\n \r\n     const messageData = {\r\n-        \r\n+        embeds: [\r\n+            {\r\n+                \r\n+            }\r\n+        ]\r\n     }\r\n \r\n     try {\r\n         await axios.post(url, messageData)\r\n"
+                },
+                {
+                    "date": 1662650060782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,10 @@\n \r\n     const messageData = {\r\n         embeds: [\r\n             {\r\n-                \r\n+                title: \"Novo Registro\",\r\n+                color: 10181046,\r\n             }\r\n         ]\r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662650093441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,11 @@\n         embeds: [\r\n             {\r\n                 title: \"Novo Registro\",\r\n                 color: 10181046,\r\n+                thumbnail: {\r\n+                    url: \"\"\r\n+                }\r\n             }\r\n         ]\r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662650275308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,24 @@\n             {\r\n                 title: \"Novo Registro\",\r\n                 color: 10181046,\r\n                 thumbnail: {\r\n-                    url: \"\"\r\n-                }\r\n+                    url: \"https://i.imgur.com/hP8Io2F.gif\"\r\n+                },\r\n+                fields: [\r\n+                    {\r\n+                        name: \"Organização\",\r\n+                        value: sender.org\r\n+                    },\r\n+                    {\r\n+                        name: \"Nome\",\r\n+                        value: sender.name\r\n+                    },\r\n+                    {\r\n+                        name: \"ID\",\r\n+                        value: sender.name\r\n+                    },\r\n+                ]\r\n             }\r\n         ]\r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662650304270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,10 +56,14 @@\n                         value: sender.name\r\n                     },\r\n                     {\r\n                         name: \"ID\",\r\n-                        value: sender.name\r\n+                        value: sender.id\r\n                     },\r\n+                    {\r\n+                        name: \"Celular\",\r\n+                        value: sender.phone\r\n+                    },\r\n                 ]\r\n             }\r\n         ]\r\n     }\r\n"
+                },
+                {
+                    "date": 1662650346181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,13 @@\n \r\n     try {\r\n         await axios.post(url, messageData)\r\n     } catch (err) {\r\n-\r\n+        return {\r\n+            error: true,\r\n+            code: 'WEBHOOK_URL is missing',\r\n+            message: 'Ocorreu um erro inesperado. Tente novamente.',\r\n+        }\r\n     }\r\n \r\n     return {\r\n         ok: true,\r\n"
+                },
+                {
+                    "date": 1662650351657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,8 @@\n         await axios.post(url, messageData)\r\n     } catch (err) {\r\n         return {\r\n             error: true,\r\n-            code: 'WEBHOOK_URL is missing',\r\n             message: 'Ocorreu um erro inesperado. Tente novamente.',\r\n         }\r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1662651628053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,12 @@\n         phone: formData.get(\"phone\"),\r\n     }\r\n     console.log(sender);\r\n \r\n+    if(!sender?.org || !sender?.name || !sender?.id || !sender?.phone) {\r\n+        \r\n+    }\r\n+\r\n     const messageData = {\r\n         embeds: [\r\n             {\r\n                 title: \"Novo Registro\",\r\n"
+                },
+                {
+                    "date": 1662651650762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,12 @@\n     }\r\n     console.log(sender);\r\n \r\n     if(!sender?.org || !sender?.name || !sender?.id || !sender?.phone) {\r\n-        \r\n+        return {\r\n+            error: true,\r\n+            \r\n+        }\r\n     }\r\n \r\n     const messageData = {\r\n         embeds: [\r\n"
+                },
+                {
+                    "date": 1662651679743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \r\n     if(!sender?.org || !sender?.name || !sender?.id || !sender?.phone) {\r\n         return {\r\n             error: true,\r\n-            \r\n+            message: 'Ocorreu um erro inesperado ao enviar seus dados. Tente novamente!'\r\n         }\r\n     }\r\n \r\n     const messageData = {\r\n"
+                },
+                {
+                    "date": 1662651893667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n } from '@chakra-ui/react';\r\n import type { ActionFunction } from '@remix-run/node';\r\n import { Form } from '@remix-run/react';\r\n import axios from 'axios';\r\n+import { useEffect, useRef } from 'react';\r\n import logoImage from '../assets/logo.png';\r\n \r\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n@@ -89,8 +90,16 @@\n     }\r\n }\r\n \r\n export default function Contact() {\r\n+\r\n+    const formRef = useRef<HTMLFormElement>(null);\r\n+\r\n+    useEffect(() => {\r\n+        if(!isSending) {\r\n+            formRef.current?.reset();\r\n+        }\r\n+    })\r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n       h=\"100%\"\r\n"
+                },
+                {
+                    "date": 1662652068674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   Image,\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n import type { ActionFunction } from '@remix-run/node';\r\n-import { Form } from '@remix-run/react';\r\n+import { Form, useTransition } from '@remix-run/react';\r\n import axios from 'axios';\r\n import { useEffect, useRef } from 'react';\r\n import logoImage from '../assets/logo.png';\r\n \r\n@@ -93,8 +93,11 @@\n export default function Contact() {\r\n \r\n     const formRef = useRef<HTMLFormElement>(null);\r\n \r\n+    const transition = useTransition();\r\n+    const isSending = transition.state === \"submiting\" && transition.submission?.formData.get(\"_action\");\r\n+\r\n     useEffect(() => {\r\n         if(!isSending) {\r\n             formRef.current?.reset();\r\n         }\r\n@@ -145,9 +148,9 @@\n                 type=\"text\"\r\n                 placeholder=\"Digite o número de celular do seu personagem\"\r\n                 />\r\n             </FormControl>\r\n-            <Button bg='#000000' w=\"full\" type=\"submit\">\r\n+            <Button bg='#000000' w=\"full\" name=\"_action\" type=\"submit\">\r\n                 Entrar no Bahamas\r\n             </Button>\r\n             </VStack>\r\n         </Form>\r\n"
+                },
+                {
+                    "date": 1662652111842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,11 +92,11 @@\n \r\n export default function Contact() {\r\n \r\n     const formRef = useRef<HTMLFormElement>(null);\r\n-\r\n+    \r\n     const transition = useTransition();\r\n-    const isSending = transition.state === \"submiting\" && transition.submission?.formData.get(\"_action\");\r\n+    const isSending = transition.state === \"submiting\" && transition.submission?.formData.get(\"_action\") === 'send';\r\n \r\n     useEffect(() => {\r\n         if(!isSending) {\r\n             formRef.current?.reset();\r\n"
+                },
+                {
+                    "date": 1662652122743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n \r\n     const formRef = useRef<HTMLFormElement>(null);\r\n     \r\n     const transition = useTransition();\r\n-    const isSending = transition.state === \"submiting\" && transition.submission?.formData.get(\"_action\") === 'send';\r\n+    const isSending = transition.state === \"submitting\" && transition.submission?.formData.get(\"_action\") === 'send';\r\n \r\n     useEffect(() => {\r\n         if(!isSending) {\r\n             formRef.current?.reset();\r\n"
+                },
+                {
+                    "date": 1662652184606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,9 +119,9 @@\n             <Flex mb={8} borderRadius=\"lg\" justify=\"center\" >\r\n                 <Image mr={3} mb={5} boxSize='60px' src={logoImage} />\r\n                 <Text  as='b' mt={2} fontSize='3xl'>FAMÍLIA BAHAMAS</Text>\r\n             </Flex>\r\n-        <Form method=\"post\">\r\n+        <Form ref={formRef} method=\"post\">\r\n             <VStack spacing={5}>\r\n             <FormControl isRequired>\r\n                 <FormLabel>Organização</FormLabel>\r\n                 <Input type=\"text\" name=\"org\" placeholder=\"Digite Bahamas\" />\r\n"
+                },
+                {
+                    "date": 1662652275172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   Image,\r\n   VStack,\r\n } from '@chakra-ui/react';\r\n import type { ActionFunction } from '@remix-run/node';\r\n-import { Form, useTransition } from '@remix-run/react';\r\n+import { Form, useActionData, useTransition } from '@remix-run/react';\r\n import axios from 'axios';\r\n import { useEffect, useRef } from 'react';\r\n import logoImage from '../assets/logo.png';\r\n \r\n@@ -90,8 +90,9 @@\n     }\r\n }\r\n \r\n export default function Contact() {\r\n+    const actionData = useActionData();\r\n \r\n     const formRef = useRef<HTMLFormElement>(null);\r\n     \r\n     const transition = useTransition();\r\n"
+                },
+                {
+                    "date": 1662652352053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n   InputLeftElement,\r\n   Textarea,\r\n   Image,\r\n   VStack,\r\n+  useToast,\r\n } from '@chakra-ui/react';\r\n import type { ActionFunction } from '@remix-run/node';\r\n import { Form, useActionData, useTransition } from '@remix-run/react';\r\n import axios from 'axios';\r\n@@ -91,8 +92,9 @@\n }\r\n \r\n export default function Contact() {\r\n     const actionData = useActionData();\r\n+    const toast = useToast();\r\n \r\n     const formRef = useRef<HTMLFormElement>(null);\r\n     \r\n     const transition = useTransition();\r\n@@ -101,9 +103,16 @@\n     useEffect(() => {\r\n         if(!isSending) {\r\n             formRef.current?.reset();\r\n         }\r\n-    })\r\n+    });\r\n+\r\n+    useEffect(() => {\r\n+        if(actionData?.error) {\r\n+\r\n+        }\r\n+    });\r\n+\r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n       h=\"100%\"\r\n"
+                },
+                {
+                    "date": 1662652382388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,9 +107,12 @@\n     });\r\n \r\n     useEffect(() => {\r\n         if(actionData?.error) {\r\n-\r\n+            toast ({\r\n+                title: 'Ops...',\r\n+                \r\n+            });\r\n         }\r\n     });\r\n \r\n   return (\r\n"
+                },
+                {
+                    "date": 1662652431233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,11 @@\n     useEffect(() => {\r\n         if(actionData?.error) {\r\n             toast ({\r\n                 title: 'Ops...',\r\n-                \r\n+                description: actionData?.message,\r\n+                status: 'error',\r\n+                position: 'top-right',\r\n             });\r\n         }\r\n     });\r\n \r\n"
+                },
+                {
+                    "date": 1662652455916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n \r\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n \r\n-    const url = process.env.WEBHOOK_URL;\r\n+    const url = process.env.WEBHOOK_URsL;\r\n \r\n     if (!url) {\r\n         return {\r\n             error: true,\r\n"
+                },
+                {
+                    "date": 1662652491113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n \r\n export const action: ActionFunction = async ({request}) => {\r\n     const formData = await request.formData();\r\n \r\n-    const url = process.env.WEBHOOK_URsL;\r\n+    const url = process.env.WEBHOOK_URL;\r\n \r\n     if (!url) {\r\n         return {\r\n             error: true,\r\n"
+                },
+                {
+                    "date": 1662652623222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,17 @@\n                 status: 'error',\r\n                 position: 'top-right',\r\n             });\r\n         }\r\n-    });\r\n+        if(actionData?.ok) {\r\n+            toast ({\r\n+                title: 'Tudo certo!',\r\n+                description: 'Logo iremos te cadastrar no nosso sistema.',\r\n+                status: 'success',\r\n+                position: 'top-right',\r\n+            });\r\n+        }\r\n+    }, [actionData]);\r\n \r\n   return (\r\n     <Flex\r\n       w=\"100%\"\r\n"
+                },
+                {
+                    "date": 1662652635992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n         }\r\n         if(actionData?.ok) {\r\n             toast ({\r\n                 title: 'Tudo certo!',\r\n-                description: 'Logo iremos te cadastrar no nosso sistema.',\r\n+                description: 'Logo iremos cadastrar você no nosso sistema.',\r\n                 status: 'success',\r\n                 position: 'top-right',\r\n             });\r\n         }\r\n"
+                },
+                {
+                    "date": 1662652719328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n         }\r\n         if(actionData?.ok) {\r\n             toast ({\r\n                 title: 'Tudo certo!',\r\n-                description: 'Logo iremos cadastrar você no nosso sistema.',\r\n+                description: 'Logo iremos cadastrar você no nosso sistema, para fazer parte do Bahamas.',\r\n                 status: 'success',\r\n                 position: 'top-right',\r\n             });\r\n         }\r\n"
+                },
+                {
+                    "date": 1662652854527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,10 @@\n                 },\r\n                 fields: [\r\n                     {\r\n                         name: \"Organização\",\r\n-                        value: sender.org\r\n+                        value: sender.org,\r\n+                        inline: true\r\n                     },\r\n                     {\r\n                         name: \"Nome\",\r\n                         value: sender.name\r\n"
+                },
+                {
+                    "date": 1662652867673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,17 +62,20 @@\n                         inline: true\r\n                     },\r\n                     {\r\n                         name: \"Nome\",\r\n-                        value: sender.name\r\n+                        value: sender.name,\r\n+                        inline: true\r\n                     },\r\n                     {\r\n                         name: \"ID\",\r\n-                        value: sender.id\r\n+                        value: sender.id,\r\n+                        inline: true\r\n                     },\r\n                     {\r\n                         name: \"Celular\",\r\n-                        value: sender.phone\r\n+                        value: sender.phone,\r\n+                        inline: true\r\n                     },\r\n                 ]\r\n             }\r\n         ]\r\n"
+                },
+                {
+                    "date": 1662652902457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,25 +57,21 @@\n                 },\r\n                 fields: [\r\n                     {\r\n                         name: \"Organização\",\r\n-                        value: sender.org,\r\n-                        inline: true\r\n+                        value: sender.org\r\n                     },\r\n                     {\r\n                         name: \"Nome\",\r\n-                        value: sender.name,\r\n-                        inline: true\r\n+                        value: sender.name\r\n                     },\r\n                     {\r\n                         name: \"ID\",\r\n-                        value: sender.id,\r\n-                        inline: true\r\n+                        value: sender.id\r\n                     },\r\n                     {\r\n                         name: \"Celular\",\r\n-                        value: sender.phone,\r\n-                        inline: true\r\n+                        value: sender.phone\r\n                     },\r\n                 ]\r\n             }\r\n         ]\r\n"
+                }
+            ],
+            "date": 1662605327652,
+            "name": "Commit-0",
+            "content": "import {\r\n  Box,\r\n  Button,\r\n  Flex,\r\n  FormControl,\r\n  FormLabel,\r\n  Input,\r\n  InputGroup,\r\n  InputLeftElement,\r\n  Textarea,\r\n  VStack,\r\n} from '@chakra-ui/react';\r\nimport { BsPerson } from 'react-icons/bs';\r\nimport { MdOutlineEmail } from 'react-icons/md';\r\n\r\nexport default function Contact() {\r\n  return (\r\n    <Flex\r\n      w=\"100%\"\r\n      h=\"100%\"\r\n      bg='#540157'\r\n      align=\"center\"\r\n      justify=\"center\">\r\n      <Box\r\n        w=\"500px\"\r\n        bg='gray.700'\r\n        borderRadius=\"lg\"\r\n        p={8}\r\n        color='whiteAlpha.900'\r\n        shadow=\"base\">\r\n        <VStack spacing={5}>\r\n          <FormControl isRequired>\r\n            <FormLabel>Seu nome</FormLabel>\r\n\r\n            <InputGroup>\r\n              <InputLeftElement />\r\n              <Input type=\"text\" name=\"name\" placeholder=\"Digite o nome do seu personagem\" />\r\n            </InputGroup>\r\n          </FormControl>\r\n\r\n          <FormControl isRequired>\r\n            <FormLabel>Seu ID</FormLabel>\r\n\r\n            <InputGroup>\r\n              <InputLeftElement />\r\n              <Input\r\n                type=\"number\"\r\n                name=\"email\"\r\n                placeholder=\"Digite seu ID do jogo\"\r\n              />\r\n            </InputGroup>\r\n          </FormControl>\r\n\r\n          <FormControl isRequired>\r\n            <FormLabel>Celular</FormLabel>\r\n\r\n            <Input\r\n              name=\"message\"\r\n              type=\"number\"\r\n              placeholder=\"Digite o número de celular do seu personagem\"\r\n            />\r\n          </FormControl>\r\n\r\n          <Button w=\"full\" type=\"submit\">\r\n            Entrar no Bahamas\r\n          </Button>\r\n        </VStack>\r\n      </Box>\r\n    </Flex>\r\n  );\r\n}"
+        }
+    ]
+}

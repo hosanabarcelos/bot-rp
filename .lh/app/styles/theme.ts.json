@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/styles/theme.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1662605257559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1662605257559,
+            "name": "Commit-0",
+            "content": "import type { ThemeConfig } from \"@chakra-ui/react\";\r\nimport { extendTheme } from \"@chakra-ui/react\";\r\nimport './theme.css';\r\n\r\nconst config: ThemeConfig = {\r\n  initialColorMode: \"dark\",\r\n  useSystemColorMode: false,\r\n};\r\n\r\nconst theme = extendTheme({\r\n  config,\r\n  styles: {\r\n    global: {\r\n      \"html, body\": {\r\n        width: \"100%\",\r\n        height: \"100%\",\r\n      },\r\n    },\r\n  },\r\n});\r\n\r\nexport default theme;\r\n"
+        }
+    ]
+}
